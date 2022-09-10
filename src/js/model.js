@@ -21,6 +21,7 @@ export const loadRecipe = async function (id) {
     };
     console.log(state.recipe);
   } catch (err) {
-    console.error(`${err} ERROR HERE!`);
+    console.error(`${err} BIG OL FATTY ERROR RAH HUR!!!`);
+    throw err;
   }
 };
